@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Видача • Telegram</title>
+ <!-- TikTok Pixel Code Start -->
+  <script>
+    !function(w,d,t){
+      w.TiktokAnalyticsObject = t;
+      var ttq = w[t] = w[t] || [];
+      ttq.methods = ["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+      ttq.setAndDefer = function(obj, method){
+        obj[method] = function(){
+          obj.push([method].concat(Array.prototype.slice.call(arguments,0)));
+        };
+      };
+      for(var i=0; i<ttq.methods.length; i++){
+        ttq.setAndDefer(ttq, ttq.methods[i]);
+      }
+      ttq.load = function(id){
+        var script = d.createElement("script");
+        script.async = true;
+        script.src = "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=" + id;
+        var first = d.getElementsByTagName("script")[0];
+        first.parentNode.insertBefore(script, first);
+      };
+      // **ВАШ ТИКТОК PIXEL ID**
+      ttq.load('D3J6B0BC77UEJB9HCGOG');
+      // Сработает page-view
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://analytics.tiktok.com/i18n/pixel/events.gif?sdkid=D3J6B0BC77UEJB9HCGOG"
+         alt="TikTok pixel"/>
+  </noscript>
+  <!-- TikTok Pixel Code End -->
+  <!-- Шрифт -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Стилі -->
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Первинна видача, відкриття категорій, відновлення втрачених, видача після 130 статті. Пишіть у Telegram — працюємо без передоплат.">
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1 class="title">
+        Первинна видача, відкриття категорій,<br/>
+        відновлення втрачених, видача після 130<br/>
+        статті.
+      </h1>
+
+      <p class="subtitle">
+        Працюємо без передоплат, з усіх питань<br/>пишіть в Telegram
+      </p>
+
+      <a class="tg-btn" href="https://t.me/pavlosct" target="_blank" rel="noopener">
+        <span class="tg-ico" aria-hidden="true">
+          <!-- SVG іконка Telegram -->
+          <svg viewBox="0 0 24 24" width="24" height="24" role="img" focusable="false">
+            <path d="M9.036 15.07 8.9 19.09a1 1 0 0 0 1.74.67l2.09-2.17 4.34 3.17c.79.58 1.92.14 2.16-.83l3.77-15.38c.25-1.01-.74-1.86-1.7-1.47L1.38 10.02c-1.09.45-1.03 2.02.09 2.38l5.8 1.89 12.74-9.74-10.91 11.52Z" />
+          </svg>
+        </span>
+        <span>Telegram</span>
+      </a>
+
+      <p class="hint">
+        Щоб зв'язатись за нами тисніть на кнопку для переходу в телеграм,
+        або шукайте за нікнеймом
+      </p>
+
+      <div class="handle">@pavlosct</div>
+    </section>
+  </main>
+</body>
+</html>
